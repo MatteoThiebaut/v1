@@ -122,6 +122,7 @@ body {
 .btn-info{
     background-color: #343a40 !important;
     border-color: #343a40!;
+    padding: 10px;
 }
 .bg-info{
   background-color: #343a40 !important;
@@ -183,4 +184,6 @@ h3{
 .nav-link:hover::after {
     transform: translateX(-50%) scaleX(1);
 }
+
+
  
