@@ -184,6 +184,23 @@ h3{
     transform: translateX(-50%) scaleX(1);
 }
 
+table{
+  box-align:"center";
+}
+thead{
+  text-align: center;
+}
+tr {
+ 
+}
+td {
+  width: 150px;
+  height: 150px;
+}
+#imgTab{
+  width: 100%;
+}
+
 
 
  
