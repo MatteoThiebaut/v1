@@ -9,8 +9,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="../img/icone.png" />
 
@@ -74,21 +78,21 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../img/img1.jpg" class="d-block w-100" alt="...">
+                <img src="img/img1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Paris</h5>
                     <p>France</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="../img/img2.jpg" class="d-block w-100" alt="...">
+                <img src="img/img2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Berlin</h5>
                     <p>Germany</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="../img/img3.jpg" class="d-block w-100" alt="...">
+                <img src="img/img3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>San Francisco</h5>
                     <p>United States</p>
@@ -183,33 +187,36 @@
                                 <u><b>COMPÉTENCES INFORMATIQUES</b></u><br>
                                 <br>
 
-                            <table align="center">
+                            <table align="center" id="index">
                                 <h3>Les langages </h3><br>
                                 <tbody>
                                     <tr>
                                         <td> <a href="https://www.w3schools.com/html/default.asp" target="_blank"
-                                                title="Lien vers un tutorial w3schools"> <img src="img/html.png"
+                                                title="Lien vers un tutorial w3schools"> <img src="img/HTML.png"
                                                     id="imgTab"> </a>
                                         <td>
                                             <a href="https://www.w3schools.com/css/default.asp" target="_blank"
                                                 title="Lien vers un tutorial w3schools">
-                                                <img src="img/css.png" id="imgTab"> </a>
+                                                <img src="img/CSS.png" id="imgTab"> </a>
                                         <td>
-
-                                            <img src="img/JS.png" id="imgTab">
+                                            <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript"
+                                                target="_blank" title="Lien vers un tutorial">
+                                                <img src="img/JS.png" id="imgTab"> </a>
 
                                     </tr>
                                     <tr>
                                         <td>
-
-                                            <img src="img/php.png" id="imgTab">
+                                            <a href="https://www.php.net/" target="_blank"
+                                                title="Lien vers un tutorial">
+                                                <img src="img/php.png" id="imgTab"> </a>
 
                                         <td>
-
-                                            <img src="img/sql.png" id="imgTab">
+                                            <a href="https://sql.sh/" target="_blank" title="Lien vers un tutorial">
+                                                <img src="img/SQL.png" id="imgTab"></a>
                                         <td>
-
-                                            <img src="img/android.png" id="imgTab">
+                                            <a href="https://developer.android.com/guide" target="_blank"
+                                                title="Lien vers un tutorial">
+                                                <img src="img/android.png" id="imgTab"></a>
 
                                     </tr>
                                 </tbody>
@@ -220,13 +227,17 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <img src="img/VSC.png" id="imgTab">
+                                            <a href="https://code.visualstudio.com/" target="_blank"
+                                                title="Lien vers un tutorial">
+                                                <img src="img/VSC.png" id="imgTab"></a>
                                         <td>
-
-                                            <img src="img/AndroidS.jfif" id="imgTab">
+                                            <a href="https://developer.android.com/studio" target="_blank"
+                                                title="Lien vers un tutorial">
+                                                <img src="img/AS.png" id="imgTab"></a>
                                         <td>
-
-                                            <img src="img/WB.png" id="imgTab">
+                                            <a href="https://www.mysql.com/fr/products/workbench/" target="_blank"
+                                                title="Lien vers un tutorial">
+                                                <img src="img/WB.png" id="imgTab"></a>
                                     </tr>
                                 </tbody>
                             </table>
@@ -236,13 +247,17 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <img src="img/laravel.png" id="imgTab">
+                                            <a href="https://laravel.com/" target="_blank"
+                                                title="Lien vers un tutorial">
+                                                <img src="img/LARAVEL.png" id="imgTab"></a>
                                         <td>
-
-                                            <img src="img/symfony.png" id="imgTab">
+                                            <a href="https://symfony.com/" target="_blank"
+                                                title="Lien vers un tutorial">
+                                                <img src="img/SYMFONY.png" id="imgTab"></a>
                                         <td>
-
-                                            <img src="img/bootstrap.png" id="imgTab">
+                                            <a href="https://getbootstrap.com/" target="_blank"
+                                                title="Lien vers un tutorial">
+                                                <img src="img/BOOTSTRAP.png" id="imgTab"></a>
                                     </tr>
                                 </tbody>
                             </table>
@@ -328,6 +343,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="js/scroll.js"></script>
 </body>
 
 </html>
