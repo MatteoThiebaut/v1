@@ -33,6 +33,15 @@ body {
   .carousel {
     margin-bottom: 4rem;
   }
+  #fondecran {
+    /* Fixe l'image en haut à gauche de la page */
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    /* Préserve le ratio de l'image */
+    width: 100%;
+    height: 100%;
+   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
     bottom: 3rem;
@@ -195,7 +204,7 @@ h3{
     transform: translateX(-50%) scaleX(1);
 }
 
-.index.td {
+#index {
   width: 150px;
   height: 150px;
 }
