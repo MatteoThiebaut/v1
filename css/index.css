@@ -238,6 +238,7 @@ h3{
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #imgTab:hover{
   -webkit-transform: scale(1.3);
@@ -257,6 +258,7 @@ h3{
   margin: auto;
   overflow: hidden;
   margin: 40px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.49);
 }
 
 .content .content-overlay {
